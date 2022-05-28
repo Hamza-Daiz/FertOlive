@@ -1,0 +1,97 @@
+name: ferolive
+description: Flutter application for FeroLive.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  # ---- fireBAse ----
+  firebase_auth: ^3.0.1
+  firebase_core: ^1.4.0
+  firebase_analytics: ^8.2.0
+  cloud_firestore: ^2.4.0
+  firebase_storage: ^10.0.6
+
+  intl_phone_field: ^2.1.0
+  otp_text_field: ^1.1.1
+  mailer: ^5.0.2
+
+  introduction_screen: ^2.1.0
+  flutter_email_sender: ^5.0.2
+  flutter_pdfview: ^1.2.1
+
+  shared_preferences: ^2.0.6
+  provider: ^4.3.3
+  file_picker: ^4.2.0
+  path_provider: ^2.0.6
+
+  fluttertoast: ^8.0.8
+  carousel_slider: ^4.0.0
+  flutter_speed_dial: ^4.4.0+2
+  syncfusion_flutter_sliders: ^19.3.46
+
+  geolocator: ^7.4.0
+  url_launcher: ^6.0.9
+  geocoding: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/icons/
+
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+
+
+
+
+
+    - family: montserat
+      fonts:
+        - asset: fonts/Montserrat-Light.ttf
+    - family: montseratBold
+      fonts:
+        - asset: fonts/Montserrat-Bold.ttf
+    - family: montseratReg
+      fonts:
+          - asset: fonts/Montserrat-Regular.ttf
+    - family: montseratMed
+      fonts:
+          - asset: fonts/Montserrat-Medium.ttf
+    - family: montseratSem
+      fonts:
+          - asset: fonts/Montserrat-SemiBold.ttf
+
+
+
+
+    - family: caliburn
+      fonts:
+        - asset: fonts/Caliburn-Bold.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700

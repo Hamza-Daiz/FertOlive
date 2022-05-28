@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/background_color" />
+
+    <!-- You can insert your own image assets here -->
+    <item
+        android:width="102.4dp"
+        android:height="91.4dp"
+        android:drawable="@drawable/fo_icon"
+        android:gravity="center">
+
+
+    </item>
+
+    <item
+        android:width="91.8dp"
+        android:height="30.6dp"
+        android:gravity="bottom|center"
+        android:bottom="20dp">
+
+        <bitmap
+            android:src="@drawable/inra_logo"
+            />
+
+    </item>
+</layer-list>

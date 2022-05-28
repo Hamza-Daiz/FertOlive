@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "820595052660",
+    "project_id": "ferolive-4a9cf",
+    "storage_bucket": "ferolive-4a9cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820595052660:android:052247d426d64b05c70121",
+        "android_client_info": {
+          "package_name": "com.hitec_appdev.ferolive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820595052660-8grbu59d83v5pkvhlb0viec4bmgqbsc8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hitec_appdev.ferolive",
+            "certificate_hash": "f56fa9ad5cd6b736648a7949777b4553b278bbab"
+          }
+        },
+        {
+          "client_id": "820595052660-6snl59v1l88n7oico2f47k4ofqt3c5k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAybkA3I_H_ZkeFcAgEjnFN_RZnHk3AJ1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820595052660-6snl59v1l88n7oico2f47k4ofqt3c5k6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
